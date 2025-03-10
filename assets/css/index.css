@@ -131,7 +131,7 @@ input:hover, input:focus {
     border-radius: 10px;
     background-color: black;
     color: white;
-    overflow: scroll;
+    overflow: auto;
 }
 
 #log h2 {
