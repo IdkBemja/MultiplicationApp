@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas de Multiplicación</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="icon" href="assets/imgs/icon.png">
+</head>
+<body>
+    <main>
+        <img src="assets/imgs/icon.png" alt="Tabla de multiplicar">
+        <h1>Juego de Multiplicación</h1>
+        <p id="question">Generando pregunta...</p>
+        <input type="text" id="answer" placeholder="Tu respuesta">
+        <div class="btns">
+            <button id="check" onclick="checkAnswer()">Enviar</button>
+            <button id="restart" onclick="restartGame()">Reiniciar</button>
+        </div>
+        
+        
+        <p id="result"></p>
+        <div class="log" id="log">
+            <h2>Historial de respuestas</h2>
+            <ul id="log-list"></ul>
+        </div>
+    </main>
+    <footer>
+        <p>App Created by IdkBemja &copy; Hosted Using GitHub Pages</p>
+    </footer>
+</body>
+<script src="assets/js/validation.js"></script>
+<script src="assets/js/app.js"></script>
+</html>
