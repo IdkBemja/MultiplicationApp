@@ -124,7 +124,7 @@ input:hover, input:focus {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 500px;
+    width: 70%;
     padding: 10px;
     border: 1px solid darkgray;
     border-radius: 10px;
