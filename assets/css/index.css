@@ -131,7 +131,8 @@ input:hover, input:focus {
     border-radius: 10px;
     background-color: black;
     color: white;
-    overflow: auto;
+    overflow: overlay;
+    max-height: 300px;
 }
 
 #log h2 {
