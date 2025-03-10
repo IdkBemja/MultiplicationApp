@@ -13,6 +13,7 @@ html, body {
 
 body {
     display: flex;
+    gap: 10px;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -130,6 +131,7 @@ input:hover, input:focus {
     border-radius: 10px;
     background-color: black;
     color: white;
+    overflow: scroll;
 }
 
 #log h2 {
